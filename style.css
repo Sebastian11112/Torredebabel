@@ -8,8 +8,10 @@ body {
     font-family: 'Arial', sans-serif;
     min-height: 100vh;
     display: flex;
-    background: url('images/OSCUROFONDO.png');
-    background-size: cover;
+    background-image: url('images/OSCUROFONDO.png');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
     color: #fff;
     cursor: url('images/cursor.png'), auto;
 }
@@ -46,13 +48,13 @@ body {
 .main-content {
     flex: 1;
     padding: 40px;
-    margin-left: 60px; /* Ajuste para evitar que el contenido quede debajo de la barra */
+    margin-left: 60px; 
     overflow-y: auto;
     transition: margin-left 0.5s ease;
 }
 
 .container:hover ~ .main-content {
-    margin-left: 220px; /* Ajuste dinámico cuando la barra se expande */
+    margin-left: 220px; 
 }
 
 ul {
@@ -68,7 +70,7 @@ li {
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    text-align: left;
+    text-align: center;
 }
 
 li:hover {
@@ -93,4 +95,25 @@ li:hover {
 
 .container:hover .item-txt {
     opacity: 1;
+}
+
+.submenu {
+    list-style: circle;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.submenu li {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-align: center;
+}
+
+.submenu li:hover {
+    background: url('images/FONDODEPANNN.png');
+    background-size: cover;
 }
