@@ -43,6 +43,7 @@ body {
     gap: 20px;
     transition: all 0.5s;
     cursor: url('images/cursor.png'), pointer;
+    overflow-y: auto;
 }
 
 .main-content {
@@ -52,6 +53,7 @@ body {
     overflow-y: auto;
     transition: margin-left 0.5s ease;
 }
+
 
 .container:hover ~ .main-content {
     margin-left: 220px; 
@@ -116,4 +118,44 @@ li:hover {
 .submenu li:hover {
     background: url('images/FONDODEPANNN.png');
     background-size: cover;
+}
+
+h2 {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8), 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+h1 {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8), 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+h3 {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8), 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+h4 {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8), 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+p {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8), 0px 0px 10px rgba(0, 0, 0, 1);
 }
